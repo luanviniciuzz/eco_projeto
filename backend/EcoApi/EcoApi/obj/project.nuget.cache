@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cncFuzznJLSYCoeQIO2oJCdwtytTh0wO99EWy9REeeFy6T6fQ2VLErz37PnzZKhyo//b83KOSCgs3/r4ZCZu6A==",
+  "dgSpecHash": "T3tVctTc1xSBalPYox4RwjT78IP+OBr9Dr8dZS9KU1oDkKo8oWukNBjUu7ZvKMZHLtbDcx/b/ERIqXJViav9og==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\dotnet\\EcoApi\\EcoApi\\EcoApi.csproj",
+  "projectFilePath": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\EcoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luan_\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\luan_\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

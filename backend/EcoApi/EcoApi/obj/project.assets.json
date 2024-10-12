@@ -4464,11 +4464,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos\\dotnet\\EcoApi\\EcoApi\\EcoApi.csproj",
+      "projectUniqueName": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\EcoApi.csproj",
       "projectName": "EcoApi",
-      "projectPath": "C:\\projetos\\dotnet\\EcoApi\\EcoApi\\EcoApi.csproj",
+      "projectPath": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\EcoApi.csproj",
       "packagesPath": "C:\\Users\\luan_\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos\\dotnet\\EcoApi\\EcoApi\\obj\\",
+      "outputPath": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

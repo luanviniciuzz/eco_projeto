@@ -20,8 +20,14 @@ namespace EcoApi.Services {
             try {
                 var mensageiros = await _context.Mensageiro.ToListAsync();
                 serviceResponse.Dados = mensageiros;
-                serviceResponse.Mensagem = "Todos os mensageiros foram encontrados.";
-                serviceResponse.Sucesso = true;
+
+                if (mensageiros.Count != 0) {
+                    serviceResponse.Mensagem = "Todos os mensageiros foram encontrados.";
+                    serviceResponse.Sucesso = true;
+                } else {
+                    serviceResponse.Mensagem = "Nenhum mensageiro cadastrado";
+                    serviceResponse.Sucesso = true;
+                }
 
             } catch(Exception ex) {
                 serviceResponse.Mensagem = ex.Message;
@@ -43,11 +49,11 @@ namespace EcoApi.Services {
                     serviceResponse.Mensagem = "Nenhum mensageiro encontrado";
                     serviceResponse.Sucesso = true;
                 } else {
+                    serviceResponse.Dados = mensageiro;
                     serviceResponse.Mensagem = "Mensageiro encontrado.";
                     serviceResponse.Sucesso = true;
                 }
 
-               
 
             } catch(Exception ex) {
                 serviceResponse.Mensagem = ex.Message;
