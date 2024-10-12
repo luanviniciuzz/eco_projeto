@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EcoApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241011193515_CriandoBancoDeDados")]
-    partial class CriandoBancoDeDados
+    [Migration("20241012204750_CriandoBandoDeDados")]
+    partial class CriandoBandoDeDados
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -57,10 +57,6 @@ namespace EcoApi.Migrations
                         .HasColumnType("decimal(18, 2)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ContribuinteId");
-
-                    b.HasIndex("MensageiroId");
 
                     b.ToTable("Contribuicao");
                 });
@@ -147,39 +143,7 @@ namespace EcoApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("MensageiroId");
-
                     b.ToTable("MovimentoDiario");
-                });
-
-            modelBuilder.Entity("EcoApi.Models.ContribuicaoModel", b =>
-                {
-                    b.HasOne("EcoApi.Models.ContribuinteModel", "Contribuinte")
-                        .WithMany()
-                        .HasForeignKey("ContribuinteId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("EcoApi.Models.MensageiroModel", "Mensageiro")
-                        .WithMany()
-                        .HasForeignKey("MensageiroId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Contribuinte");
-
-                    b.Navigation("Mensageiro");
-                });
-
-            modelBuilder.Entity("EcoApi.Models.MovimentoDiarioModel", b =>
-                {
-                    b.HasOne("EcoApi.Models.MensageiroModel", "Mensageiro")
-                        .WithMany()
-                        .HasForeignKey("MensageiroId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Mensageiro");
                 });
 #pragma warning restore 612, 618
         }

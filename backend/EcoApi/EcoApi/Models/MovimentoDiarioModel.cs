@@ -5,7 +5,7 @@ namespace EcoApi.Models {
         public int Id { get; set; }
         public DateTime DataMovimento { get; set; }
         public string Recibo { get; set; }
-        public MensageiroModel Mensageiro { get; set; }
+        public int MensageiroId { get; set; }
         public PagamentoEnum IdTipoPagamento { get; set; }
         public decimal Valor { get; set; }
         public DateTime? DataPrevista { get; set; }

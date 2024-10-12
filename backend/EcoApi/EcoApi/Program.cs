@@ -14,6 +14,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IMensageiroInterface, MensageiroService>();
 builder.Services.AddScoped<IContribuinteInterface, ContribuinteService>();
+builder.Services.AddScoped<IContribuicaoInterface, ContribuicaoService>();
+builder.Services.AddScoped<IMovimentoDiarioInterface, MovimentoDiarioService>();
 
 builder.Services.AddDbContext<AppDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|c:\\projetos\\ecoprojeto\\backend\\ecoapi\\ecoapi\\services\\contribuinteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|solutionrelative:ecoapi\\services\\contribuinteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|c:\\projetos\\ecoprojeto\\backend\\ecoapi\\ecoapi\\controllers\\movimentodiariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|solutionrelative:ecoapi\\controllers\\movimentodiariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|c:\\projetos\\ecoprojeto\\backend\\ecoapi\\ecoapi\\services\\mensageiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|solutionrelative:ecoapi\\services\\mensageiroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|c:\\projetos\\ecoprojeto\\backend\\ecoapi\\ecoapi\\models\\movimentodiariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|solutionrelative:ecoapi\\models\\movimentodiariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|c:\\projetos\\ecoprojeto\\backend\\ecoapi\\ecoapi\\services\\movimentodiarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|solutionrelative:ecoapi\\services\\movimentodiarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|c:\\projetos\\ecoprojeto\\backend\\ecoapi\\ecoapi\\services\\contribuicaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|solutionrelative:ecoapi\\services\\contribuicaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|c:\\projetos\\ecoprojeto\\backend\\ecoapi\\ecoapi\\interfaces\\imovimentodiariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|solutionrelative:ecoapi\\interfaces\\imovimentodiariointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|c:\\projetos\\ecoprojeto\\backend\\ecoapi\\ecoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +31,8 @@
       "RelativeMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|solutionrelative:ecoapi\\interfaces\\icontribuinteinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|c:\\projetos\\ecoprojeto\\backend\\ecoapi\\ecoapi\\controllers\\contribuintecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|solutionrelative:ecoapi\\controllers\\contribuintecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|c:\\projetos\\ecoprojeto\\backend\\ecoapi\\ecoapi\\models\\contribuicaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA4A565A-743C-476A-8BF4-EAD832081D98}|EcoApi\\EcoApi.csproj|solutionrelative:ecoapi\\models\\contribuicaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,67 +58,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MensageiroService.cs",
-              "DocumentMoniker": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Services\\MensageiroService.cs",
-              "RelativeDocumentMoniker": "EcoApi\\Services\\MensageiroService.cs",
-              "ToolTip": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Services\\MensageiroService.cs",
-              "RelativeToolTip": "EcoApi\\Services\\MensageiroService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDMAAAA3AAAA",
+              "DocumentIndex": 0,
+              "Title": "MovimentoDiarioController.cs",
+              "DocumentMoniker": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Controllers\\MovimentoDiarioController.cs",
+              "RelativeDocumentMoniker": "EcoApi\\Controllers\\MovimentoDiarioController.cs",
+              "ToolTip": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Controllers\\MovimentoDiarioController.cs",
+              "RelativeToolTip": "EcoApi\\Controllers\\MovimentoDiarioController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAcAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T15:06:15.915Z",
+              "WhenOpened": "2024-10-12T21:40:44.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovimentoDiarioService.cs",
+              "DocumentMoniker": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Services\\MovimentoDiarioService.cs",
+              "RelativeDocumentMoniker": "EcoApi\\Services\\MovimentoDiarioService.cs",
+              "ToolTip": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Services\\MovimentoDiarioService.cs",
+              "RelativeToolTip": "EcoApi\\Services\\MovimentoDiarioService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T21:15:28.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ContribuinteController.cs",
-              "DocumentMoniker": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Controllers\\ContribuinteController.cs",
-              "RelativeDocumentMoniker": "EcoApi\\Controllers\\ContribuinteController.cs",
-              "ToolTip": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Controllers\\ContribuinteController.cs",
-              "RelativeToolTip": "EcoApi\\Controllers\\ContribuinteController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAABNAAAA",
+              "Title": "IMovimentoDiarioInterface.cs",
+              "DocumentMoniker": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Interfaces\\IMovimentoDiarioInterface.cs",
+              "RelativeDocumentMoniker": "EcoApi\\Interfaces\\IMovimentoDiarioInterface.cs",
+              "ToolTip": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Interfaces\\IMovimentoDiarioInterface.cs",
+              "RelativeToolTip": "EcoApi\\Interfaces\\IMovimentoDiarioInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T14:21:38.43Z",
+              "WhenOpened": "2024-10-12T21:12:50.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ContribuinteService.cs",
-              "DocumentMoniker": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Services\\ContribuinteService.cs",
-              "RelativeDocumentMoniker": "EcoApi\\Services\\ContribuinteService.cs",
-              "ToolTip": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Services\\ContribuinteService.cs",
-              "RelativeToolTip": "EcoApi\\Services\\ContribuinteService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "MovimentoDiarioModel.cs",
+              "DocumentMoniker": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Models\\MovimentoDiarioModel.cs",
+              "RelativeDocumentMoniker": "EcoApi\\Models\\MovimentoDiarioModel.cs",
+              "ToolTip": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Models\\MovimentoDiarioModel.cs",
+              "RelativeToolTip": "EcoApi\\Models\\MovimentoDiarioModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T13:56:51.627Z",
+              "WhenOpened": "2024-10-12T20:14:41.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ContribuicaoService.cs",
+              "DocumentMoniker": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Services\\ContribuicaoService.cs",
+              "RelativeDocumentMoniker": "EcoApi\\Services\\ContribuicaoService.cs",
+              "ToolTip": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Services\\ContribuicaoService.cs",
+              "RelativeToolTip": "EcoApi\\Services\\ContribuicaoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:02:19.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IContribuinteInterface.cs",
               "DocumentMoniker": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Interfaces\\IContribuinteInterface.cs",
               "RelativeDocumentMoniker": "EcoApi\\Interfaces\\IContribuinteInterface.cs",
               "ToolTip": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Interfaces\\IContribuinteInterface.cs",
               "RelativeToolTip": "EcoApi\\Interfaces\\IContribuinteInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAABJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T13:53:47.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Program.cs",
               "RelativeDocumentMoniker": "EcoApi\\Program.cs",
               "ToolTip": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Program.cs",
               "RelativeToolTip": "EcoApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T19:16:00.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContribuicaoModel.cs",
+              "DocumentMoniker": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Models\\ContribuicaoModel.cs",
+              "RelativeDocumentMoniker": "EcoApi\\Models\\ContribuicaoModel.cs",
+              "ToolTip": "C:\\projetos\\EcoProjeto\\backend\\EcoApi\\EcoApi\\Models\\ContribuicaoModel.cs",
+              "RelativeToolTip": "EcoApi\\Models\\ContribuicaoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T19:43:11.267Z",
               "EditorCaption": ""
             }
           ]
