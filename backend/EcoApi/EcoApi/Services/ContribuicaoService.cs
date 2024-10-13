@@ -76,6 +76,20 @@ namespace EcoApi.Services {
                     ContribuinteId = contribuicaoObjeto.ContribuinteId, 
                 };
 
+                var verificarMensageiro = await _context.Mensageiro.FirstOrDefaultAsync(e => e.Id == contribuicao.MensageiroId);
+                if (verificarMensageiro == null) {
+                    serviceResponse.Mensagem = "O mensageiro informado não está registrado como colaborador.";
+                    serviceResponse.Sucesso = true;
+                    return serviceResponse;
+                }
+
+                var verificarContribuinte = await _context.Contribuinte.FirstOrDefaultAsync(e => e.Id == contribuicao.ContribuinteId);
+                if (verificarContribuinte == null) {
+                    serviceResponse.Mensagem = "O contribuinte informado não está registrado no sistema";
+                    serviceResponse.Sucesso = true;
+                    return serviceResponse; 
+                }
+
                 _context.Add(contribuicao);
                 await _context.SaveChangesAsync(); ;
 

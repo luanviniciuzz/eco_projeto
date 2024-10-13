@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c843ebde74e00747d54fe8eb0f1f0cf1820d330e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81f9ce34f9551f9d9d520725da8c989dc7fc3332")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
