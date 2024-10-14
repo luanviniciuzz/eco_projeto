@@ -283,3 +283,10 @@ C:\projetos\EcoProjeto\backend\EcoApi\EcoApi\obj\Debug\net8.0\refint\EcoApi.dll
 C:\projetos\EcoProjeto\backend\EcoApi\EcoApi\obj\Debug\net8.0\EcoApi.pdb
 C:\projetos\EcoProjeto\backend\EcoApi\EcoApi\obj\Debug\net8.0\EcoApi.genruntimeconfig.cache
 C:\projetos\EcoProjeto\backend\EcoApi\EcoApi\obj\Debug\net8.0\ref\EcoApi.dll
+C:\projetos\EcoProjeto\backend\EcoApi\EcoApi\bin\Debug\net8.0\System.Web.Cors.dll
+C:\projetos\EcoProjeto\backend\EcoApi\EcoApi\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\projetos\EcoProjeto\backend\EcoApi\EcoApi\bin\Debug\net8.0\System.Web.Http.dll
+C:\projetos\EcoProjeto\backend\EcoApi\EcoApi\bin\Debug\net8.0\System.Web.Http.Cors.dll
+C:\projetos\EcoProjeto\backend\EcoApi\EcoApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\projetos\EcoProjeto\backend\EcoApi\EcoApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\projetos\EcoProjeto\backend\EcoApi\EcoApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
