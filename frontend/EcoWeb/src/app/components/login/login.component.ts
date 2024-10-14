@@ -35,7 +35,6 @@ export class LoginComponent {
     const { nome, senha } = this.login;
     this.authService.getUserDetails(nome, senha).subscribe({
       next: (response) => {
-        console.log("sdasdas",response.dados.lenght)
         if (response.dados) {
           sessionStorage.setItem('token', response.dados);
           this.router.navigate(['home']);
