@@ -1,0 +1,48 @@
+<div class="flex justify-content-center align-items-center min-h-screen">
+  <p-card header="Login" [style]="{ width: '400px' }">
+    <form #loginForm="ngForm" (ngSubmit)="onLogin()">
+      <div class="field">
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          pInputText
+          [(ngModel)]="login.nome"
+          class="w-full"
+          id="nome"
+          name="nome"
+          #nome="ngModel"
+          required
+        />
+        @if(nome.invalid && (nome.dirty || nome.touched)) {
+          <small class="block p-error"> Nome é obrigatório </small>
+          }
+      </div>
+      <div class="field">
+        <label for="senha">Senha</label>
+        <p-password
+          [(ngModel)]="login.senha"
+          [feedback]="false"
+          [toggleMask]="true"
+          inputId="senha"
+          name="senha"
+          #senha="ngModel"
+          inputStyleClass="w-full"
+          styleClass="w-full"
+          required
+        />
+        @if(senha.invalid && (senha.dirty || senha.touched)) {
+        <small class="block p-error"> A senha é obrigatória </small>
+        }
+      </div>
+      <p-button
+        label="SIGN IN"
+        styleClass="w-full"
+        [disabled]="loginForm.invalid"
+        type="submit"
+      ></p-button>
+      <!-- <div class="mt-2">
+        Not a member? <a routerLink="/register">Register</a>
+      </div> -->
+    </form>
+  </p-card>
+</div>
