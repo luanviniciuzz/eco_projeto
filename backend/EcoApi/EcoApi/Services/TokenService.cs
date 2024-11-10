@@ -3,6 +3,7 @@ using EcoApi.Data;
 using EcoApi.Dto;
 using EcoApi.Interfaces;
 using EcoApi.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -22,6 +23,7 @@ namespace EcoApi.Services {
 
         public async Task<ServiceResponse<string>> Login(MensageiroLoginDto mensageiroLogin) {
             ServiceResponse<string> serviceResponse = new ServiceResponse<string>();
+            MensageiroModel mensageiro = new MensageiroModel();
 
             try {
 
@@ -29,27 +31,34 @@ namespace EcoApi.Services {
 
                 if (usuario == null) {
                     serviceResponse.Mensagem = "Credenciais inválidas!";
-                    //serviceResponse.Status = false;
                     return serviceResponse;
                 }
+                
+                var passwordHasher = new PasswordHasher<MensageiroModel>();
+                var status = passwordHasher.VerifyHashedPassword(mensageiro, usuario.Senha, mensageiroLogin.Senha);
 
-                var usuarioSenha = await _context.Mensageiro.FirstOrDefaultAsync(userBanco => userBanco.Senha == mensageiroLogin.Senha);
-                if (usuarioSenha == null) {
-                    serviceResponse.Mensagem = "Credenciais inválidas!";
-                    //serviceResponse.Status = false;
-                    return serviceResponse;
+                switch (status)
+                {
+                    case PasswordVerificationResult.Failed:
+                        serviceResponse.Mensagem = "Credenciais inválidas!";
+                        serviceResponse.Sucesso = true;
+                        break;
+
+                    case PasswordVerificationResult.Success:
+                        var token = _senhaInterface.CriarToken(usuario);
+                        serviceResponse.Dados = token;
+                        serviceResponse.Mensagem = "Usuário logado com sucesso!";
+                        serviceResponse.Sucesso = true;
+                        break;
+
+                    default:
+                        throw new InvalidOperationException();
                 }
-
-                var token = _senhaInterface.CriarToken(usuario);
-
-                serviceResponse.Dados = token;
-                serviceResponse.Mensagem = "Usuário logado com sucesso!";
 
 
             } catch (Exception ex) {
                 serviceResponse.Dados = null;
                 serviceResponse.Mensagem = ex.Message;
-                //serviceResponse.Status = false;
             }
 
 

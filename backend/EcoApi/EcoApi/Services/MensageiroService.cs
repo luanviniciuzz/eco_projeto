@@ -2,6 +2,7 @@
 using EcoApi.Interfaces;
 using EcoApi.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcoApi.Services {
@@ -65,12 +66,13 @@ namespace EcoApi.Services {
         public async Task<ServiceResponse<List<MensageiroModel>>> CreateMensageiro(MensageiroModel mensageiroObjeto) {
 
             ServiceResponse<List<MensageiroModel>> serviceResponse = new ServiceResponse<List<MensageiroModel>>();
+            var passwordHash = new PasswordHasher<MensageiroModel>();
 
             try {
 
                 var mensageiro = new MensageiroModel() {
                     Nome = mensageiroObjeto.Nome,
-                    Senha = mensageiroObjeto.Senha
+                    Senha = passwordHash.HashPassword(mensageiroObjeto, mensageiroObjeto.Senha)
                 };
                 _context.Add(mensageiro);
                 await _context.SaveChangesAsync(); ;
